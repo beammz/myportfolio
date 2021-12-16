@@ -1,4 +1,5 @@
 import React from 'react';
+import Typical from 'react-ty'
 
 export default function Profile() {
     return (
@@ -16,8 +17,33 @@ export default function Profile() {
                             <i className='fa fa-google-plus-square'></i>
                         </a>
                     </div>
-                </div>
 
+                    <div className='profile-details-name'>
+                        <span className='primary-text'>
+                            {" "}
+                            Hello, I'M <span className='highlighted-text'>Beatriz</span>
+                        </span>
+                    </div>
+                    <div className='profile-details-role'>
+                        <span className='primary-text'>
+                            {" "}
+                            <h1>
+                                {" "}
+                                <Typical
+                                loop={Infinity}
+                                steps={[
+                                    "Enthusiastic Dev 🔥",
+                                    1000,
+                                    "Full Stack Dev 💻",
+                                    1000,
+                                    "React Dev 📱",
+                                    1000,
+                                ]}
+                                />
+                            </h1>
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     )
