@@ -1,5 +1,5 @@
 import React from 'react';
-import Typical from 'react-ty'
+import Typical from 'react-typical'
 
 export default function Profile() {
     return (
@@ -12,9 +12,6 @@ export default function Profile() {
                         </a>
                         <a href='https://github.com/beammz'>
                             <i className='fa fa-github-square'></i>
-                        </a>
-                        <a href='#'>
-                            <i className='fa fa-google-plus-square'></i>
                         </a>
                     </div>
 
@@ -41,6 +38,9 @@ export default function Profile() {
                                 ]}
                                 />
                             </h1>
+                            <span className='profile-role-tagline'>
+                            Knack of building applications with front and back end operations.
+                            </span>
                         </span>
                     </div>
                 </div>
